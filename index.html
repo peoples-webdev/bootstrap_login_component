@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+  <body>
+    <main class="container">
+      <div class="row">
+        <section class="col-7 img_sect"></section>
+        <section class="col-5 form_sect">
+          <form action="">
+            <h2 class="form__header mb-5">Log in</h2>
+            <label for="username" class="form-label label__username"
+              >Username</label
+            >
+            <input
+              type="text"
+              id="username"
+              class="form-control form-control-lg form-input input mb-5"
+            />
+            <label for="password" class="form-label label__password"
+              >Password</label
+            >
+            <input
+              type="password"
+              class="form-control form-control-lg form-input input mb-5"
+              id="password"
+            />
+            <button class="btn submit" type="button">Log in</button>
+            <a href="#">Forgot my password</a>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
