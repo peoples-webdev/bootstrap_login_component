@@ -36,8 +36,8 @@
       <div class="row">
         <section class="col-7 img_sect"></section>
         <section class="col-5 form_sect">
-          <form action="">
-            <h2 class="form__header mb-5">Log in</h2>
+          <form class="" action="">
+            <h2 class="display mb-5 form_heading">Log in</h2>
             <label for="username" class="form-label label__username"
               >Username</label
             >
@@ -45,7 +45,9 @@
               type="text"
               id="username"
               class="form-control form-control-lg form-input input mb-5"
+              required
             />
+
             <label for="password" class="form-label label__password"
               >Password</label
             >
@@ -53,9 +55,10 @@
               type="password"
               class="form-control form-control-lg form-input input mb-5"
               id="password"
+              required
             />
-            <button class="btn submit" type="button">Log in</button>
-            <a href="#">Forgot my password</a>
+            <button class="btn submit mb-5" type="submit">Log in</button>
+            <a href="#" class="forgot">Forgot my password</a>
           </form>
         </section>
       </div>
